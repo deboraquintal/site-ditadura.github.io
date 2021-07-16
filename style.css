@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #99723F, #379950);
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+p{
+  font-family: 'Quattrocento Sans', sans-serif;  
+  font-size: 1rem;
+}
+header {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav{
+    background-image: linear-gradient(to right, #379950, #E6A653);
+    padding: 10px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.507);
+    width: 90%;
+    display: inline-block;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+li > a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 3px;
+  }
+
+img {
+    width: 100%;
+    height: 450px;
+}
+
+.manchete {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.534);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+article{
+    padding: 5px;
+}
+
+article > aside{
+    background-color: #6AE689;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1px;
+}
+
